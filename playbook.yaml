@@ -63,4 +63,4 @@
           shell: rm -rf "{{HOME}}/.zshrc"
 
         - name: stow dotfiles
-          shell: cd "{{HOME}}/dotfiles" && for i in `ls -d */`; do stow $i;done;"
+          shell: cd "{{HOME}}/dotfiles" && for i in `ls -d */`; do stow $i;done;
